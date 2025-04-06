@@ -8,15 +8,20 @@ function Header() {
   return (
     <header>
       <div className="logoBar">
-        <Link to="pages/Home">
+        <Link to="/">
           <img src={logoImg} alt="로고" className="logoImg" />
         </Link>
       </div>
       <div className="navBar">
         <div className="nav1">
-          <Link to="">새로 나왔어요!</Link>
-          <Link to="">인기짱!</Link>
-          <Link to="">할인중!</Link>
+          <Link to="/pages/category/New">새로 나왔어요!</Link>
+          <Link to="/pages/category/Best">인기짱!</Link>
+          <Link to="/pages/category/Sale">할인중!</Link>
+          <Link to="">공간</Link>
+          <Link to="">정신</Link>
+          <Link to="">시간</Link>
+          <Link to="">실패작!</Link>
+          <Link to="">마법부 허가필요!</Link>
         </div>
         <div className="nav2">
           <Link to="/pages/Cart">

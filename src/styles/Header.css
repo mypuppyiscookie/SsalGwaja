@@ -1,30 +1,31 @@
 header {
-    background-color: #ffe4b5;
+    background-color: #651b70;
     text-align: center;
 }
 
 .logoBar {
-    background-color: blueviolet;
-    display: center;
     align-items: center;
+    padding: 5px 0;
 }
 
 .logoImg {
-    width: 60px;
+    width: 55px;
+    transform: translateY(1.5px);
 }
 
 .navBar {
-    background-color: aqua;
-    padding: 0px 60px;
+    max-width: 1200px;
+    align-items: center;
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    margin: 0 auto; /* 화면 중앙 고정 */
 }
 
 .nav1 a{  /* 카테고리 */
-    margin-right: 10px;
+    margin-right: 40px;
     text-decoration: none;
-    color:black;
+    color:rgb(255, 255, 255);
+    font-size: 20px;
 }
 
 .nav1 a:hover {
