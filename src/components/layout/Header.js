@@ -1,8 +1,8 @@
 import { Link } from "react-router-dom";
-import "../styles/Header.css";
-import myImg from "../assets/my-img.png";
-import logoImg from "../assets/logo-img.png";
-import cartImg from "../assets/cart-img.png";
+import "../../styles/Header.css";
+import myImg from "../../assets/my-img.png";
+import logoImg from "../../assets/logo-img.png";
+import cartImg from "../../assets/cart-img.png";
 
 function Header() {
   return (

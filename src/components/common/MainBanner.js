@@ -1,9 +1,9 @@
 import { useEffect, useState } from "react";
-import "../styles/MainBanner.css";
-import img1 from "../assets/banner1.png";
-import img2 from "../assets/banner2.png";
-import img3 from "../assets/banner3.png";
-import img4 from "../assets/banner4.png";
+import "../../styles/MainBanner.css";
+import img1 from "../../assets/banner1.png";
+import img2 from "../../assets/banner2.png";
+import img3 from "../../assets/banner3.png";
+import img4 from "../../assets/banner4.png";
 
 const images = [img1, img2, img3, img4];
 
