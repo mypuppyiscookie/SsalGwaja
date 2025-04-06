@@ -21,3 +21,9 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+
+/src/assets/banner1.png
+/src/assets/banner2.png
+/src/assets/banner3.png
+/src/assets/banner4.png
