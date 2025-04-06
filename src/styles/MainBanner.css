@@ -1,0 +1,47 @@
+.banner-container {
+    position: relative;
+    width: 100%;
+    max-width: 1500px;
+    height: 500px;
+    margin: 50px auto;
+    overflow: hidden;
+    border-radius: 20px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  }
+  
+  .slider {
+    display: flex;
+    transition: transform 0.6s ease-in-out;
+    height: 100%;
+  }
+  
+  .banner-image {
+    width: 100%;
+    flex-shrink: 0;
+    object-fit: cover;
+  }
+  
+  .prev-btn,
+  .next-btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 30px;
+    background: transparent; /* 배경 없애기 */
+    border: none;
+    cursor: pointer;
+  }
+  
+  .prev-btn:hover,
+  .next-btn:hover {
+    background: none;
+  }
+  
+  .prev-btn {
+    left: 10px;
+  }
+  
+  .next-btn {
+    right: 10px;
+  }
+  
